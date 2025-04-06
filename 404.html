@@ -1,0 +1,35 @@
+---
+layout: page
+title: 404 - 页面不存在
+permalink: /404.html
+---
+
+<div class="text-center">
+  <h1 class="display-1 mt-5 mb-4"><span class="badge bg-danger">404</span> 页面不存在</h1>
+  <p class="lead">很抱歉，您访问的页面不存在或已被移动到其他位置。</p>
+  <p>请检查URL是否正确，或者使用下面的按钮返回首页。</p>
+  <a class="btn btn-primary" href="{{ '/' | relative_url }}">返回首页</a>
+</div>
+
+<script>
+  $(document).ready(function () {
+    // 获取URL参数中的错误信息（如果有）
+    const urlParams = new URLSearchParams(window.location.search);
+    const errorMsg = urlParams.get('error');
+    
+    if (errorMsg) {
+      $('#error-details').text(errorMsg).parent().removeClass('d-none');
+    }
+  });
+</script>
+
+<div class="mt-5 d-none">
+  <div class="card border-danger">
+    <div class="card-header bg-danger text-white">
+      错误详情
+    </div>
+    <div class="card-body">
+      <p id="error-details"></p>
+    </div>
+  </div>
+</div> 

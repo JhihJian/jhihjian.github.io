@@ -1,43 +1,49 @@
-# Chirpy Starter
+# JhihJian的个人博客
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+基于Jekyll和Chirpy主题构建的个人技术博客，用于分享编程经验和技术见解。
 
-When installing the [**Chirpy**][chirpy] theme through [RubyGems.org][gem], Jekyll can only read files in the folders
-`_data`, `_layouts`, `_includes`, `_sass` and `assets`, as well as a small part of options of the `_config.yml` file
-from the theme's gem. If you have ever installed this theme gem, you can use the command
-`bundle info --path jekyll-theme-chirpy` to locate these files.
+## 最近更新
 
-The Jekyll team claims that this is to leave the ball in the user’s court, but this also results in users not being
-able to enjoy the out-of-the-box experience when using feature-rich themes.
+- 优化博客视觉体验
+  - 采用深色主题模式
+  - 自定义CSS样式改进阅读体验
+  - 美化标题、引用和代码块样式
+  - 优化移动端显示效果
 
-To fully use all the features of **Chirpy**, you need to copy the other critical files from the theme's gem to your
-Jekyll site. The following is a list of targets:
+- 功能增强
+  - 集成Giscus评论系统
+  - 配置Google Analytics分析
+  - 启用页面访问统计
+  - 添加自定义404页面
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+- 内容结构优化
+  - 更新"关于"页面内容
+  - 创建标准博客文章模板
+  - 设置博客头像和社交预览图片
+
+## 技术栈
+
+- Jekyll静态网站生成器
+- Chirpy主题
+- GitHub Pages托管
+- Giscus评论系统
+- Google Analytics分析
+
+## 本地运行
+
+```bash
+# 安装依赖
+bundle install
+
+# 本地启动
+bundle exec jekyll serve
 ```
 
-To save you time, and also in case you lose some files while copying, we extract those files/configurations of the
-latest version of the **Chirpy** theme and the [CD][CD] workflow to here, so that you can start writing in minutes.
+## 联系方式
 
-## Usage
+- Email: jhihjian@foxmail.com
+- GitHub: [JhihJian](https://github.com/jhihjian)
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 许可证
 
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+本项目采用[MIT许可证](LICENSE)。
