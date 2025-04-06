@@ -2,8 +2,12 @@
 layout: post
 title: "基于LLM的智能中文网络小说生成器开发实践"
 date: 2024-04-06
-categories: [AI, NLP, 开发实践]
-tags: [LLM, Gemini, 自然语言生成, Python, 网络小说]
+categories: [coder,python，开发实践]
+tags: [AI,mcp, Gemini, 自然语言生成, Python]
+media_subpath: /assets/images/2025-04-06-generator-online-novels
+image:
+  path: arch.png
+  alt: 架构图，生成by https://gitdiagram.com/
 ---
 
 # 基于LLM的智能中文网络小说生成器开发实践
@@ -21,7 +25,7 @@ tags: [LLM, Gemini, 自然语言生成, Python, 网络小说]
 3. **剧情设计代理(PlotDesignerAgent)**：设计故事情节和章节大纲
 4. **内容创建代理(ContentCreatorAgent)**：生成具体章节内容
 
-![系统架构](/assets/img/novel-generator-arch.png)
+![系统架构](arch.png)
 
 ## 关键技术点
 
