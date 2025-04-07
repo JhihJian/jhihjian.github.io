@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- 背景 -->
+  <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#20232a" />
+    <stop offset="100%" stop-color="#282c34" />
+  </linearGradient>
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  
+  <!-- 装饰性网格 -->
+  <g opacity="0.1">
+    <path d="M0 100 H800" stroke="#61dafb" stroke-width="1" />
+    <path d="M0 200 H800" stroke="#61dafb" stroke-width="1" />
+    <path d="M0 300 H800" stroke="#61dafb" stroke-width="1" />
+    <path d="M0 400 H800" stroke="#61dafb" stroke-width="1" />
+    <path d="M0 500 H800" stroke="#61dafb" stroke-width="1" />
+    <path d="M100 0 V600" stroke="#61dafb" stroke-width="1" />
+    <path d="M200 0 V600" stroke="#61dafb" stroke-width="1" />
+    <path d="M300 0 V600" stroke="#61dafb" stroke-width="1" />
+    <path d="M400 0 V600" stroke="#61dafb" stroke-width="1" />
+    <path d="M500 0 V600" stroke="#61dafb" stroke-width="1" />
+    <path d="M600 0 V600" stroke="#61dafb" stroke-width="1" />
+    <path d="M700 0 V600" stroke="#61dafb" stroke-width="1" />
+  </g>
+  
+  <!-- React 标志 -->
+  <g transform="translate(400, 200) scale(0.8)">
+    <ellipse cx="0" cy="0" rx="150" ry="57" stroke="#61dafb" stroke-width="6" fill="none" transform="rotate(30)" />
+    <ellipse cx="0" cy="0" rx="150" ry="57" stroke="#61dafb" stroke-width="6" fill="none" transform="rotate(90)" />
+    <ellipse cx="0" cy="0" rx="150" ry="57" stroke="#61dafb" stroke-width="6" fill="none" transform="rotate(150)" />
+    <circle cx="0" cy="0" r="20" fill="#61dafb" />
+  </g>
+  
+  <!-- Android 标志 -->
+  <g transform="translate(550, 300) scale(0.6)">
+    <path d="M50 20 L90 100 L10 100 Z" fill="#3DDC84" />
+    <circle cx="30" cy="60" r="10" fill="white" />
+    <circle cx="70" cy="60" r="10" fill="white" />
+    <rect x="10" y="100" width="80" height="60" rx="10" ry="10" fill="#3DDC84" />
+    <rect x="20" y="160" width="10" height="30" rx="5" ry="5" fill="#3DDC84" />
+    <rect x="70" y="160" width="10" height="30" rx="5" ry="5" fill="#3DDC84" />
+  </g>
+  
+  <!-- Web 符号 -->
+  <g transform="translate(250, 300) scale(0.8)">
+    <circle cx="50" cy="50" r="45" fill="none" stroke="#E34F26" stroke-width="10" />
+    <text x="50" y="70" font-family="Arial" font-size="60" text-anchor="middle" fill="#E34F26" font-weight="bold">W</text>
+  </g>
+  
+  <!-- 连接线 -->
+  <path d="M300 300 Q400 250, 500 300" stroke="#61dafb" stroke-width="4" fill="none" stroke-dasharray="10,5" />
+  
+  <!-- 标题文字 -->
+  <g transform="translate(400, 450)">
+    <text x="0" y="0" font-family="Arial" font-size="40" text-anchor="middle" fill="white" font-weight="bold">React Native 多平台应用开发实践</text>
+    <text x="0" y="50" font-family="Arial" font-size="30" text-anchor="middle" fill="#61dafb">Web 与 Android 的统一之路</text>
+  </g>
+</svg>

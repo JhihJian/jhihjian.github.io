@@ -121,7 +121,7 @@ class World:
     def __init__(self, name: str, description: str, background: str = "", 
                  cultures: List[Dict[str, Any]] = None, 
                  natural_laws: Dict[str, Any] = None,
-                 id: Optional[str] = None):
+                 id: Optional[str] = None): 
         # 初始化代码...
 
 class Character:
